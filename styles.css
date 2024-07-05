@@ -1,0 +1,105 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    margin: 10px 0 5px;
+    font-size: 2em;
+    text-align: center;
+    padding:25px;
+}
+
+.tagline {
+    font-weight: bold;
+    color: #090909;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+.bio, .Intereses, footer {
+    margin: 20px 0;
+}
+h2 {
+    border-bottom: 2px solid #1e201e;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #0b0c0b;
+    text-align: center;
+}
+
+p, ol {
+    line-height: 1.8;
+    font-weight: 250;
+    color:black;
+    text-align: justify;
+    margin: 35px;
+}
+
+ol {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.redes{
+    list-style-type: none;
+    padding: 0;
+    margin: 25px;
+    text-align: center;
+}
+
+.redes li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #101010;
+
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    float: right;
+    margin-right: 55px;
+    border: #666;
+}
+.datos p{
+    line-height: 1.8;
+    color:black;
+    text-align: justify;
+    margin: 0.5px;
+}
+.Intereses p{
+    display: inline;
+    margin: 0 10px;
+    text-align: center;
+}
+.habilidades ol{
+    display: inline;
+    margin: 1px;
+}
+.bold{
+    font-weight: bold;
+}
